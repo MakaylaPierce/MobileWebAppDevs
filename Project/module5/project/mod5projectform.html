@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+</head>
+<body class="parallax">
+<div class="container-fluid">
+    <div id="navbar" class="row" style="background-color:#67120d;">
+        <div class="col-xs-3"><a href="mod5project.html"><img src="Logo.png" height="42px" width="42px"></a></div>
+        <div class="col-xs-2"><h4><a href="mod5project.html">Home</a></h4></div>
+        <div class="col-xs-2"><h4><a href="mod5projectabout.html">About</a></h4></div>
+        <div class="col-xs-2"><h4><a href="mod5projectcontact.html">Contact Us</a></h4></div>
+        <div class="col-cs-3"></div>
+      </div>
+
+    <div class="jumbotron text-center" style="margin: 7% 15%; background:#be8d53; opacity:.95;">
+      <h1>Contact Form</h1>
+      <form style="padding-top:5%; padding-bottom:5%;">
+        <div class="form-group row">
+           <label for="FirstNameInput" class="col-sm-2 col-form-label">First Name</label>
+           <div class="col-sm-2">
+             <input class="form-control" id="FirstNameInput" placeholder="First Name">
+           </div>
+         </div>
+         <div class="form-group row">
+           <label for="LastNameInput" class="col-sm-2 col-form-label">Last Name</label>
+           <div class="col-sm-2">
+             <input class="form-control" id="LastNameInput" placeholder="Last Name">
+           </div>
+         </div>
+         <fieldset class="form-group">
+   <div class="row">
+     <label for="form-check" class="col-sm-2 col-form-label">Type of issue</label>
+     <div class="col-sm-1">
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+         <label class="form-check-label" for="gridRadios1">
+           Technical
+         </label>
+       </div>
+       <div class="form-check">
+         <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+         <label class="form-check-label" for="gridRadios2">
+           Login
+         </label>
+       </div>
+       <div class="form-check disabled">
+         <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+         <label class="form-check-label" for="gridRadios3">
+           Connection
+         </label>
+       </div>
+     </div>
+   </div>
+ </fieldset>
+ <div class="form-group row">
+   <div class="col-sm-2">Did you try turning it off and back on?</div>
+   <div class="col-sm-1">
+     <div class="form-check">
+       <input class="form-check-input" type="checkbox" id="gridCheck1">
+       <label class="form-check-label" for="gridCheck1">
+         Yes
+       </label>
+     </div>
+   </div>
+ </div>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Have you experienced this issue before?
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+  </div>
+</div>
+<div class="form-group row">
+   <label for="IssueInput" class="col-sm-2 col-form-label">Issue</label>
+   <div class="col-sm-10">
+     <input class="form-control" id="IssueInput" placeholder="Describe your issue here">
+   </div>
+ </div>
+ <div class="form-group row">
+   <div class="col-sm-12" style="float:right;">
+     <button type="submit" class="btn btn-primary">Submit</button>
+   </div>
+ </div>
+      </form>
+    </div>
+
+  <div class="row" style="background-color:#67120d; padding: .25%;border-top: solid 1px black; margin-top:4%; position:absolute; bottom:0; width:100%;">
+      <div class="col-xs-3"><img src="Logo.png" height="42" width="42"></div>
+    </div>
+</div>
+</body>
+<style>
+html{
+  height:100%;
+  width:100%;
+}
+body{
+  background-image:url(https://wallup.net/wp-content/uploads/2015/12/152776-simple_background-simple-road-trees-landscape-nature.jpg);
+  background-attachment:fixed;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:100%;
+  width:100%;
+  color:#fffbdb !important;
+}
+a, a:hover{
+  color: inherit !important;
+  text-decoration:none !important;
+}
+.jumbotron .btn {
+  background:#67120d !important;
+  margin:2%;
+  color:#fffbdb;
+}
+</style>
+</html>
